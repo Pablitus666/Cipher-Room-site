@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8" />
 
-  <title>🔐 Cipher Room — Cifrado seguro de texto</title>
+  <title>🔐 Cipher Room — Chat web cifrado</title>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="🔐 Cipher Room" />
   <meta property="og:description"
-    content="Herramienta web para cifrar y descifrar texto de forma segura, con enfoque en privacidad y simplicidad." />
+    content="Chat web cifrado directamente en tu navegador. Mensajes protegidos con claves secretas, salas privadas, interfaz estilo terminal y privacidad real: sin cookies ni rastreo." />
   <meta property="og:url" content="https://pablitus666.github.io/Cipher-Room-site/" />
 
-  <!-- OG Image -->
+  <!-- Open Graph Image -->
   <meta property="og:image"
     content="https://raw.githubusercontent.com/Pablitus666/Web--Chat-/main/images/Social%20preview.png" />
   <meta property="og:image:secure_url"
@@ -28,7 +28,7 @@
   <style>
     body {
       margin: 0;
-      font-family: system-ui, sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: #0e1626;
       color: #ffffff;
       display: flex;
@@ -38,30 +38,50 @@
       text-align: center;
     }
 
+    .container {
+      max-width: 640px;
+      padding: 24px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.5;
+      color: #cfd6e4;
+    }
+
     a {
-      margin-top: 20px;
       display: inline-block;
-      padding: 12px 24px;
+      margin-top: 28px;
+      padding: 14px 28px;
       background: #2d81ff;
-      color: #fff;
+      color: #ffffff;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
       font-weight: 600;
+      font-size: 1.05rem;
     }
 
     a:hover {
-      background: #1c65d8;
+      background: #1f6be0;
     }
   </style>
 </head>
 
 <body>
-  <div>
+  <div class="container">
     <h1>🔐 Cipher Room</h1>
-    <p>Herramienta web para cifrado y descifrado seguro de texto.</p>
+    <p>
+      Chat web cifrado directamente en tu navegador. Mensajes protegidos con claves secretas,
+      salas privadas, interfaz estilo terminal y privacidad real: sin cookies ni rastreo.
+    </p>
 
-    <a href="https://cipher-room.netlify.app/" target="_blank">
-      👉 Ir a la aplicación
+    <a href="https://cipher-room.netlify.app/" target="_blank" rel="noopener">
+      🚀 Abrir la aplicación
     </a>
   </div>
 </body>
