@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
 
-  <title>Cipher Room — Cifrado seguro de texto</title>
+  <title>🔐 Cipher Room — Cifrado seguro de texto</title>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -13,7 +13,7 @@
     content="Herramienta web para cifrar y descifrar texto de forma segura, con enfoque en privacidad y simplicidad." />
   <meta property="og:url" content="https://pablitus666.github.io/Cipher-Room-site/" />
 
-  <!-- IMAGEN OG -->
+  <!-- OG Image -->
   <meta property="og:image"
     content="https://raw.githubusercontent.com/Pablitus666/Web--Chat-/main/images/Social%20preview.png" />
   <meta property="og:image:secure_url"
@@ -22,18 +22,12 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-  <!-- Twitter / WhatsApp -->
+  <!-- Twitter / Telegram -->
   <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- NO redirección inmediata -->
-  <script>
-    setTimeout(() => {
-      window.location.href = "https://cipher-room.netlify.app/";
-    }, 2500); // 2.5 segundos (clave)
-  </script>
 
   <style>
     body {
+      margin: 0;
       font-family: system-ui, sans-serif;
       background: #0e1626;
       color: #ffffff;
@@ -41,8 +35,22 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
-      margin: 0;
       text-align: center;
+    }
+
+    a {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 12px 24px;
+      background: #2d81ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    a:hover {
+      background: #1c65d8;
     }
   </style>
 </head>
@@ -50,13 +58,12 @@
 <body>
   <div>
     <h1>🔐 Cipher Room</h1>
-    <p>Redirigiendo al sitio…</p>
-  </div>
+    <p>Herramienta web para cifrado y descifrado seguro de texto.</p>
 
-  <!-- Fallback sin JS -->
-  <noscript>
-    <meta http-equiv="refresh" content="5; url=https://cipher-room.netlify.app/" />
-  </noscript>
+    <a href="https://cipher-room.netlify.app/" target="_blank">
+      👉 Ir a la aplicación
+    </a>
+  </div>
 </body>
 
 </html>
